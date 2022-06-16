@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+font {
+  size: 18px;
+}
+
+:root {
+  /* root colors */
+  /* Primary */
+  --Cyan: hsl(180, 66%, 49%);
+  --Dark-Violet: hsl(257, 27%, 26%);
+
+  /* End-Primary */
+
+  /* Secondary */
+
+  --Red: hsl(0, 87%, 67%);
+
+  /* End-Secondary */
+
+  /*  Neutral */
+
+  --Gray: hsl(0, 0%, 75%);
+  --Grayish-Violet: hsl(257, 7%, 63%);
+  --Very-Dark-Blue: hsl(255, 11%, 22%);
+  --Very-Dark-Violet: hsl(260, 8%, 14%);
+  /*  End-Neutral */
+}
+
+/* End-root colors */
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
+}
+
+header img {
+  padding: 0 0 0 112px;
+}
+
+.navlinks {
+  padding: 6px 714px 0 80px;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: var(--Very-Dark-Violet);
+  margin: -5rem;
+}
+
+.join a {
+  text-decoration: none;
+  color: var(--Very-Dark-Violet);
+}
+
+.join #sign {
+  display: inline;
+  width: 130px;
+  background-color: var(--Cyan);
+  color: aliceblue;
+  border-radius: 25px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-align: center;
+}
+/* End Header */
+
+/* Hero-section */
+.hero {
+  display: flex;
+  font-size: 18px;
+}
+
+/* End Hero-section */
